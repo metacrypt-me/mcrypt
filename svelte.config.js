@@ -8,7 +8,7 @@ const config = {
 	preprocess: preprocess(),
 
 	paths: {
-		base: '/mcrypt',
+		base: dev ? '' : '/mcrypt',
 		assets: '/mcrypt'
 	},
 
